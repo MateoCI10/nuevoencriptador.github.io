@@ -1,0 +1,88 @@
+*{
+    background-color: #42528a;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+}
+.logo{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 10%;
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.text-area{
+    border: none;
+    color: #62710a;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder{color: #5b710a;}
+.text-area:focus{
+    outline:none;
+}
+.mensaje{
+    background: white;
+    background-image: url("img/bici.png" ) ;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border: none;
+    border-radius: 24px;
+    color:#0A3871;
+    height: 780px;
+    width: 400px;
+    margin-left: 798px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    
+    
+}
+.mensaje:focus{
+    outline: none;
+}
+.botones{
+    display: flex;
+    margin-top: 18px;
+
+}
+.btn-encriptar{
+    background-color: #712b0a;
+    border: 1px solid #711f0a;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-right: 10px;
+}
+.btn-desencriptar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+.btn-copiar{
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 180px;
+    background-color: #0a7135;
+    border: 1px solid #0a710f;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+}
+.informacion{
+    color: #495057;
+    font-size: 18px;
+}
